@@ -1,6 +1,6 @@
 ## ASUNA V 1.0
 
-Asuna merupakan kode untuk mengenkripsi File yang berada di seluruh folder dan subfolder ROOT suatu Website.
+Asuna merupakan kode untuk mengenkripsi File yang berada di seluruh folder dan subfolder ROOT suatu Website. Pada versi ini, enkripsi akan menggunakan algoritma AES-256-CBC.
 
 ### ⚙️Penggunaan
 - Upload **asuna.php** pada website
