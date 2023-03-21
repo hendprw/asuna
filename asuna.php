@@ -1,107 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>File Encryption</title>
+    <title>Asuna Encrypt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <style type="text/css">
-    body {
-  background-color: #15202b;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  color: #fff;
-  text-align: center;
-  margin-top: 20px;
-}
-
-form {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #192734;
-  border: 1px solid #38444d;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-input[type="text"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #38444d;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  background-color: #15202b;
-  color: #fff;
-}
-
-input[type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #1da1f2;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.info {
-  max-width: 500px;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: #192734;
-  border: 1px solid #38444d;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  color: #fff;
-}
-
-.info ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.info ul li {
-  margin-bottom: 10px;
-}
-
-.info ul li:first-child {
-  font-weight: bold;
-}
-
-.info ul li:last-child {
-  margin-bottom: 0;
-}
-
-.info h2 {
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hendprw/asuna/style.css"/>
 </head>
 <body>
     <h1>ASUNA</h1>
     <form method="POST">
-        <label for="key">Enter key to encrypt files:</label><br>
+        <tanda for="key">Enter key to encrypt files:</tanda><br>
         <input type="text" id="key" name="key"><br>
         <input type="submit" value="Submit">
     </form>
-    <div class="info">
+    <div class="baginf">
         <h2>Server Information:</h2>
         <ul>
             <li>Web Server: <?php echo $_SERVER['SERVER_SOFTWARE']; ?></li>
